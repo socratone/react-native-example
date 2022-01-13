@@ -1,6 +1,7 @@
 import { StyleSheet, View, Button } from 'react-native';
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { StackParamList } from '../App';
+import colors from '../constants/colors';
 
 type Props = NativeStackScreenProps<StackParamList, 'Home'>;
 
@@ -10,10 +11,12 @@ const Home = (props: Props) => {
       <Button
         title="Other"
         onPress={() => props.navigation.navigate('Other')}
+        color={colors.primary}
       />
       <Button
         title="Shadow"
         onPress={() => props.navigation.navigate('Shadow')}
+        color={colors.secondary}
       />
     </View>
   );
