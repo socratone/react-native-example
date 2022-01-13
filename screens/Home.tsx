@@ -8,8 +8,12 @@ const Home = (props: Props) => {
   return (
     <View style={styles.container}>
       <Button
-        title="다른 화면으로 이동"
+        title="Other"
         onPress={() => props.navigation.navigate('Other')}
+      />
+      <Button
+        title="Shadow"
+        onPress={() => props.navigation.navigate('Shadow')}
       />
     </View>
   );
