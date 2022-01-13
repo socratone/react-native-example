@@ -18,6 +18,11 @@ const Home = (props: Props) => {
         onPress={() => props.navigation.navigate('Shadow')}
         color={colors.secondary}
       />
+      <Button
+        title="Blur"
+        onPress={() => props.navigation.navigate('Blur')}
+        color={colors.secondary}
+      />
     </View>
   );
 };
