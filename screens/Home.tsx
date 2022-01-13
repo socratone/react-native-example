@@ -23,6 +23,11 @@ const Home = (props: Props) => {
         onPress={() => props.navigation.navigate('Blur')}
         color={colors.secondary}
       />
+      <Button
+        title="AlertPopup"
+        onPress={() => props.navigation.navigate('AlertPopup')}
+        color={colors.secondary}
+      />
     </View>
   );
 };
