@@ -33,6 +33,11 @@ const Home = (props: Props) => {
         onPress={() => props.navigation.navigate('Font')}
         color={colors.secondary}
       />
+      <Button
+        title="ImageScreen"
+        onPress={() => props.navigation.navigate('ImageScreen')}
+        color={colors.secondary}
+      />
     </View>
   );
 };
