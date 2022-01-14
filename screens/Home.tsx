@@ -48,6 +48,11 @@ const Home = (props: Props) => {
         onPress={() => props.navigation.navigate('Dimension')}
         color={colors.secondary}
       />
+      <Button
+        title="PlatformScreen"
+        onPress={() => props.navigation.navigate('PlatformScreen')}
+        color={colors.secondary}
+      />
     </View>
   );
 };
