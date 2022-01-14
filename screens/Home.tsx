@@ -28,6 +28,11 @@ const Home = (props: Props) => {
         onPress={() => props.navigation.navigate('AlertPopup')}
         color={colors.secondary}
       />
+      <Button
+        title="Font"
+        onPress={() => props.navigation.navigate('Font')}
+        color={colors.secondary}
+      />
     </View>
   );
 };
