@@ -9,7 +9,8 @@ import Font from './screens/Font';
 import Home from './screens/Home';
 import Other from './screens/Other';
 import Shadow from './screens/Shadow';
-import ImageScreen from './screens/Image';
+import ImageScreen from './screens/ImageScreen';
+import TextScreen from './screens/TextScreen';
 
 export type StackParamList = {
   Home: undefined;
@@ -19,6 +20,7 @@ export type StackParamList = {
   AlertPopup: undefined;
   Font: undefined;
   ImageScreen: undefined;
+  TextScreen: undefined;
 };
 
 const Stack = createNativeStackNavigator();
@@ -42,6 +44,7 @@ export default function App() {
         <Stack.Screen name="AlertPopup" component={AlertPopup} />
         <Stack.Screen name="Font" component={Font} />
         <Stack.Screen name="ImageScreen" component={ImageScreen} />
+        <Stack.Screen name="TextScreen" component={TextScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
