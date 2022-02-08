@@ -13,6 +13,7 @@ import ImageScreen from './screens/ImageScreen';
 import TextScreen from './screens/TextScreen';
 import Dimension from './screens/Dimension';
 import PlatformScreen from './screens/PlatformScreen';
+import Size from './screens/Size';
 
 export type StackParamList = {
   Home: undefined;
@@ -25,6 +26,7 @@ export type StackParamList = {
   TextScreen: undefined;
   Dimension: undefined;
   PlatformScreen: undefined;
+  Size: undefined;
 };
 
 const Stack = createNativeStackNavigator();
@@ -55,6 +57,11 @@ export default function App() {
         <Stack.Screen name="TextScreen" component={TextScreen} />
         <Stack.Screen name="Dimension" component={Dimension} />
         <Stack.Screen name="PlatformScreen" component={PlatformScreen} />
+        <Stack.Screen
+          name="Size"
+          component={Size}
+          options={{ headerShown: false }}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );
