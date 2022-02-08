@@ -90,33 +90,53 @@ const styles = StyleSheet.create({
   },
   text1: {
     fontSize: 10,
+    includeFontPadding: false,
+    textAlignVertical: 'center',
   },
   text2: {
     fontSize: 11,
+    includeFontPadding: false,
+    textAlignVertical: 'center',
   },
   text3: {
     fontSize: 12,
+    includeFontPadding: false,
+    textAlignVertical: 'center',
   },
   text4: {
     fontSize: 13,
+    includeFontPadding: false,
+    textAlignVertical: 'center',
   },
   text5: {
     fontSize: 14,
+    includeFontPadding: false,
+    textAlignVertical: 'center',
   },
   text6: {
     fontSize: 15,
+    includeFontPadding: false,
+    textAlignVertical: 'center',
   },
   text7: {
     fontSize: 16,
+    includeFontPadding: false,
+    textAlignVertical: 'center',
   },
   text8: {
     fontSize: 17,
+    includeFontPadding: false,
+    textAlignVertical: 'center',
   },
   text9: {
     fontSize: 18,
+    includeFontPadding: false,
+    textAlignVertical: 'center',
   },
   text10: {
     fontSize: 19,
+    includeFontPadding: false,
+    textAlignVertical: 'center',
   },
 });
 
