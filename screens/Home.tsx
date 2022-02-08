@@ -58,6 +58,11 @@ const Home = (props: Props) => {
         onPress={() => props.navigation.navigate('Size')}
         color={colors.secondary}
       />
+      <Button
+        title="FontSize"
+        onPress={() => props.navigation.navigate('FontSize')}
+        color={colors.secondary}
+      />
     </View>
   );
 };
