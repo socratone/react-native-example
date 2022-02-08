@@ -63,6 +63,11 @@ const Home = (props: Props) => {
         onPress={() => props.navigation.navigate('FontSize')}
         color={colors.secondary}
       />
+      <Button
+        title="PixelRatioScreen"
+        onPress={() => props.navigation.navigate('PixelRatioScreen')}
+        color={colors.secondary}
+      />
     </View>
   );
 };

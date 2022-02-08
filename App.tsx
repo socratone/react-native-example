@@ -15,6 +15,7 @@ import Dimension from './screens/Dimension';
 import PlatformScreen from './screens/PlatformScreen';
 import Size from './screens/Size';
 import FontSize from './screens/FontSize';
+import PixelRatioScreen from './screens/PixelRatioScreen';
 
 export type StackParamList = {
   Home: undefined;
@@ -29,6 +30,7 @@ export type StackParamList = {
   PlatformScreen: undefined;
   Size: undefined;
   FontSize: undefined;
+  PixelRatioScreen: undefined;
 };
 
 const Stack = createNativeStackNavigator();
@@ -64,11 +66,8 @@ export default function App() {
           component={Size}
           options={{ headerShown: false }}
         />
-        <Stack.Screen
-          name="FontSize"
-          component={FontSize}
-          options={{ headerShown: false }}
-        />
+        <Stack.Screen name="FontSize" component={FontSize} />
+        <Stack.Screen name="PixelRatioScreen" component={PixelRatioScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
